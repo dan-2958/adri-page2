@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<div class="container"> 
+<head class="header">
+  <title>Adrianita</title>
+   </head>
+   <body>
+     <h1 id= "title"  class="title">
+        Encuesta De Adrianita 
+     </h1>
+    <p id="description" class="cent">Esta encuesta fue realizada por pedido de la china, gracias por tomarte el tiempo de completarla </p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Nombre</label>
+            <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Introduzca su nombre"
+            required
+            />
+        </div>
+        <class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Introduzca su Email"
+            required
+            />
+            <div class="form-group">
+                <label id="number-label" for="number">Edad<span class="clue">(optional)</span></label>
+                <input
+                type="number"
+                name="Age"
+                id="number"
+                min="10"
+                max="99"
+                class="form-contol"
+                placeholder="Edad"
+                />
+            </div>
+        <div class="form-group">
+            <p>A quien ama mas Adrianita</p>
+            <select id="dropdown" name="role" class="form-control" required>
+                <option disabled selected value>Seleccione las siguientes personas</option>
+                <option disabled
+                 value="diu" >Diunelmar</option>
+                <option disabled value="Maria">Maria</option>
+                <option disabled
+                value="valeria">Valeria</option>
+                <option disabled
+                value="marcela">Marcela</option> 
+                <option disabled value="leo" >leo no cuenta ya que ella lo odia</option> 
+                <option value="dani">Daniel</option>
+                
+           </select>
+        </div>
+        
+        <div class="form-group">
+            <p> A Adrianita le gustan las tajadas?</p>
+            <label>
+                <input
+                name="user-recomend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                
+                />si
+            </label>
+            <label>
+                <input
+                name="user-recomend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+                />las odia
+           </label>
+        </div>
+
+        <div class="form-group">
+            <p>
+                Cual crees que es el  hijo favorito de Adrianita?
+            </p>
+            <select id="most-like" name="most-like" class="form-control" required>
+                <option disabled selected value>select an option </option> 
+                <option value="challenges">Gustavo</option>
+                <option value="projects">Maria Andreina</option>
+                <option value="comunity">Juancito</option>
+                <option value="openSource">pedrito</option> 
+                <option value="rei">Reinaldo</option>
+                 <option value="ric">Ricardo</option>
+                  <option value="TOM">Tomas</option>
+                   <option value="xiao">Xiao Mai</option>
+                    <option value="adr">Adrianita</option>
+                    <option value="gui">Guillermo</option>
+                     <option value="pow">Power</option>
+              
+            </select>
+        </div>
+        <div class="form-group">
+            <p>
+                Cual es el personaje favorito de Fullmetal Alchemist de Adrianita?
+            </p>
+            <label>
+                <input 
+                name="prefer"
+                value="back-end-projects"
+                type="checkbox"
+                class="input-checkbox"/>
+                Mustang
+            </label>
+            <label
+            ><input
+              name="prefer"
+              value="data-visualization"
+              type="checkbox"
+              class="input-checkbox"
+            />Envy</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />Edward</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="open-source-community"
+              type="checkbox"
+              class="input-checkbox"
+            />Alphonse</label
+          >
+
+          <label
+            ><input
+              name="prefer"
+              value="gitter-help-rooms"
+              type="checkbox"
+              class="input-checkbox"
+            />Winry</label
+          >
+        </div>
+        <div class="form-group">
+            <p>Any comments or suggestions?
+            </p>
+            <textarea 
+            name="comments" 
+            id="comments"
+            class="input-textarea"
+            placeholder="enter yout comment here...">
+        </textarea>
+        </div>
+        <button type="submit" class="submit-button">submit</button>
+      </div>
+   </div>
+    </form>
+  </body>
+
+</html>
+    
